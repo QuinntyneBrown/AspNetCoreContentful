@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AspNetCoreContentful.Api.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/courses")]
     public class CourseController
     {
         private readonly IContentfulClient _client;
